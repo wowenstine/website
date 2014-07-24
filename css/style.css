@@ -1,0 +1,52 @@
+
+	a:link {color:#fff;}
+	a:link {text-decoration: none;}
+
+	html {
+			background: url(../images/background.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+	body {
+		color: #fff;
+		font-size: 24px;
+		letter-spacing: 1px;
+		background: transparent;
+		padding-top: 10px;
+	}
+	.hello {
+		font-family: 'Lobster', cursive;
+	}
+	#bio {
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 18px;
+		text-align: left; 
+		margin-left:10px; 
+		margin-right:10px;
+	
+	}
+
+	.centered-text {
+    text-align:center;
+    padding-bottom: 20px;
+	} 
+
+	.panel {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
+
+	.contact {
+		letter-spacing: 1.25em;
+		
+	}
+
+	#profile-pic {
+		display: block;
+		max-width: 100px;
+		margin: 10px auto;
+		border-radius: 100%;
+	}

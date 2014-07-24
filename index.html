@@ -7,81 +7,27 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
 		<meta name="description" content="Will Howenstine - a space to find out more information about me and what I'm up to" />
 		<meta name="keywords" content="web development, ruby, ruby on rails, rails, web design, portfolio, design blog, personal website, will howenstine" />
-		<!--Bootstrap -->
-		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
 		<!-- icons -->
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
 		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<!-- favicon -->
-		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-			<style>
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />	
+		<!-- silly jQuery stuff -->
+		<script type="text/javascript" src="javascript/app.js"></script>
 
-
-
-	a:link {color:#fff;}
-	a:link {text-decoration: none;}
-
-	html {
-			background: url(newyorkskyline.jpg) no-repeat center center fixed; 
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-		}
-
-	body {
-		padding-top: 40px;
-		color: #fff;
-		font-size: 24px;
-		letter-spacing: 1px;
-		background: transparent;
-	}
-	.lobster-font {
-		font-family: 'Lobster', cursive;
-	}
-	#bio {
-		font-family: 'Open Sans Condensed', sans-serif;
-		font-size: 18px;
-		text-align: left; 
-		margin-left:10px; 
-		margin-right:10px;
-	
-	}
-
-	.centered-text {
-    text-align:center;
-    padding-bottom: 20px;
-	} 
-
-	.panel {
-			background-color: rgba(0, 0, 0, 0.5);
-		}
-
-
-	.contact {
-		letter-spacing: 1.25em;
-		
-	}
-
-	#profile-pic {
-		display: block;
-		max-width: 100px;
-		margin: 10px auto;
-		border-radius: 100%;
-	}
-	</style>
-		
 	</head>
 
 	<body>
 		<div class="container">
 			<div class="row">
 				<!-- centers panel and text within -->
-				<div class="col-md-6 col-md-offset-3 centered-text panel panel-default">
-					<h1 class="lobster-font">Hi, my name's Will!</h1>
-					<img src="profile.jpg" alt="photo of me" id="profile-pic">
+				<div class="col-md-6 col-md-offset-3 centered-text panel panel-default" id="main-box">
+					<h1 class="hello">Hi, my name's Will!</h1>
+					<img src="images/profile.jpg" alt="photo of me" id="profile-pic">
 						<p id="bio"> &nbsp; &nbsp; &nbsp; &nbsp; I'm a cheesehead living in Williamsburg and I'm learning to code. I used to sell ads for Yelp, but now I just focus my time on building cool things for the web. Some of which you'll be able to check out on here. If you want to get in touch, just click on the icon of your preferred communication method below. </p>
 						<hr>
 						<div class="contact">
@@ -90,18 +36,14 @@
 							<a class="icon-linkedin" href="http://www.linkedin.com/pub/william-howenstine/36/2a3/519/"></a>
 							<a class="icon-github" href="http://github.com/wowenstine"></a>
 						</div>
-						
+				</div>		
 
 				</div>
-			</div>
 		</div>
 
-    <!-- Bootstrap core JavaScript -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
-
+		<!--Bootstrap -->
+	   
+	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</body>
 
 	</html>
